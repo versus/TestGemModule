@@ -1,6 +1,6 @@
 module GemVersus
   
-  def self.do
+  def self.foo
     "Gem Versus module"
   end
   
