@@ -8,4 +8,10 @@ module GemVersus
     2+2
   end
   
+  class Foo
+    def boo
+      "foo boo"
+    end
+  end
+  
 end

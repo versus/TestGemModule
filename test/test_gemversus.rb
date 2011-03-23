@@ -3,9 +3,6 @@ require 'test/unit'
 
 
 class TestGemversus < Test::Unit::TestCase
-
-          
-
   
     should "true first test" do
         assert true
@@ -22,5 +19,11 @@ class TestGemversus < Test::Unit::TestCase
     
     should "gemversus.foo test" do
       assert_equal("Gem Versus module", GemVersus.foo)
+    end
+    
+    should "gemversus Foo class test" do
+      bb = GemVersus::Foo.new
+      assert_not_nil bb.boo
+      assert_equal("foo boo", bb.boo)
     end
 end
