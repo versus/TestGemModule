@@ -47,12 +47,16 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.2"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
+      s.add_dependency(%q<hpricot>, [">=0"])
+      s.add_dependency(%q<rest-client>, [">=0"])
       s.add_development_dependency(%q<test-unit>, [">= 0"])
     else
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
       s.add_dependency(%q<rcov>, [">= 0"])
+      s.add_dependency(%q<hpricot>, [">=0"])
+      s.add_dependency(%q<rest-client>, [">=0"])
       s.add_dependency(%q<test-unit>, [">= 0"])
     end
   else
@@ -60,6 +64,8 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
     s.add_dependency(%q<rcov>, [">= 0"])
+    s.add_dependency(%q<hpricot>, [">=0"])
+    s.add_dependency(%q<rest-client>, [">=0"])
     s.add_dependency(%q<test-unit>, [">= 0"])
   end
 end
